@@ -1,12 +1,13 @@
 # Repo for files on Harvard University's CS50 Web Development Track
 
 ## Source:
-Harvard: https://cs50.harvard.edu/web/
-YouTube: https://www.youtube.com/playlist?list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5
+- Harvard: https://cs50.harvard.edu/web/
+- YouTube: https://www.youtube.com/playlist?list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5
 
 ## How to use:
 1. Watch the videos via Harvard/YouTube links
-2. 
+2. Follow along with lectures and create your own version on local machine
+3. Keep Github up to date
 
 ## Some personal notes on how to use Github (I'm learning):
 1. Clone repository to local machine
