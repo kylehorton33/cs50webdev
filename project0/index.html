@@ -1,11 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Webpage</title>
-</head>
-<body>
-  Hello, world!  
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Recipes</title>
+  </head>
+  <body>
+    
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row align-content-center"> <!--how do i center this?-->
+          <div class="col">
+            <h1 class="display-4">My Recipes</h1>
+            <h3><small class="text-muted">An easier way to figure out what to eat for dinner (right now just for tacos)</small></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <style>
+        .col {
+           padding: 5px;
+        }
+      </style>
+      <div class="row">
+        <div class="col">
+          <a href="page1.html"><img class="card-img-top" src="pics/avocado-tacos.jpg" alt="Card image cap"></a>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        
+        </div>
+        <div class="col">
+          <img src="pics/family-fish-tacos.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col">
+          <img src="pics/fish-tacos.jpg" class="img-fluid" alt="Responsive image"> <!--how to make this same width as others-->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="pics/shrimp-mango-tacos.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col">
+          <img src="pics\taco-seasoning.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col">
+          <img src="pics/tacos-de-carnitas.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a href="page1.html">Page 1</a>
+        </div>
+        <div class="col">
+          <a href="page2.html">Page 2</a>
+        </div>
+        <div class="col">
+          <a href="page3.html">Page 3</a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+        <h2>
+          Some of my hobbies
+        </h2>
+      </div>
+      <br>
+      <div class="row">
+        <div class="media">
+          <img class="mr-3" src="dogBasket.jpeg" alt="Generic placeholder image" width=120px>
+          <div class="media-body">
+            <h5 class="mt-0">Coding</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="media">
+          <img class="align-self-center mr-3" src="guineaPigs.jpeg" alt="Generic placeholder image" width=120px> <!--how to get thumbnail image-->
+          <div class="media-body">
+            <h5 class="mt-0">Baking Bread</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="media">
+          <img class="align-self-center mr-3" src="guineaPigs.jpeg" alt="Generic placeholder image" width=120px> <!--how to get thumbnail image-->
+          <div class="media-body">
+            <h5 class="mt-0">Cooking</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="media">
+          <img class="align-self-center mr-3" src="guineaPigs.jpeg" alt="Generic placeholder image" width=120px> <!--how to get thumbnail image-->
+          <div class="media-body">
+            <h5 class="mt-0">Cocktails</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row">
+        <p>If I enter some code such as <code>&lt;ipconfig&gt;</code> I should see the below output:</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-10">
+        <p><pre><samp>Windows IP Configuration
+
+
+          Wireless LAN adapter Local Area Connection* 1:
+          
+             Media State . . . . . . . . . . . : Media disconnected
+             Connection-specific DNS Suffix  . :
+          
+          Wireless LAN adapter Local Area Connection* 2:
+          
+             Media State . . . . . . . . . . . : Media disconnected
+             Connection-specific DNS Suffix  . :
+          
+          Wireless LAN adapter Wi-Fi:
+          
+             Connection-specific DNS Suffix  . : lan
+             Link-local IPv6 Address . . . . . : xxxx::xxxx:xxxx:xxxx:xxxxxxx
+             IPv4 Address. . . . . . . . . . . : x.x.x.x
+             Subnet Mask . . . . . . . . . . . : x.x.x.x
+             Default Gateway . . . . . . . . . : x.x.x.x
+          
+          Ethernet adapter Bluetooth Network Connection:
+          
+             Media State . . . . . . . . . . . : Media disconnected
+             Connection-specific DNS Suffix  . :</samp></pre></p>
+            </div>
+      </div>
+      <div class="row">
+        <p>To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+          To edit settings, press <kbd>ctrl</kbd> + <kbd>,</kbd></p>
+      </div>
+    </div>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <img src="dogBasket.jpeg" class="img-fluid" alt="Responsive image" width=60%>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <table class="table table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container">
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
