@@ -6,3 +6,23 @@
   color: midnightblue;
   font-weight: 200px;
 }
+
+div > img {
+  border: 1px dashed gray;
+}
+
+img.card-img-top {
+  box-shadow: navajowhite;
+}
+
+samp,kbd {
+  background-color: gray;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
