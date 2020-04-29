@@ -3,18 +3,25 @@
     <head>
         <script>
 
-            let counter = 0;
+            let counter = 1;
+            let value = 1;
 
             function count() {
                 counter++;
+                value = value*1.2;
                 document.querySelector('#counter').innerHTML = counter;
+                document.querySelector('#value').innerHTML = value;
             }
 
         </script>
         <title>My Website</title>
     </head>
     <body>
-        <h1 id="counter">0</h1>
+        <h1>Demonstation of exponential growth:</h1>
+        <h2>Click Count:</h2>
+        <p id="counter">1</p>
+        <h2>Value:</h2>
+        <p id="value">1</p>
         <button onclick="count()">Click Here!</button>
     </body>
 </html>
